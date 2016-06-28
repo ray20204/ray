@@ -19,7 +19,43 @@
         <a class="homebtn mdl-button mdl-button--raised mdl-button--colored" href="/ray/">首頁</a>
         <div class="mdl-grid">
             <div class="block-container mdl-cell section--center mdl-shadow--2dp">
-                {{ content }}
+                <h1 id="git-page-blog-with-jekyll">git page blog with jekyll</h1>
+
+<h3 id="check-gem-version">check gem version</h3>
+<ul>
+  <li>gem -v</li>
+  <li>update Gem (sudo)</li>
+  <li>gem update –system</li>
+</ul>
+
+<h3 id="jekyll">jekyll</h3>
+<ul>
+  <li><a href="https://jekyllrb.com/docs/installation/">jekyll official</a></li>
+  <li>use gem install jekyll (sudo)</li>
+  <li>
+    <p><code class="highlighter-rouge">$ gem install jekyll</code></p>
+
+    <p>查詢jekyll 版本</p>
+
+    <p><code class="highlighter-rouge">$ jekyll -v</code></p>
+
+    <p><code class="highlighter-rouge">cd blog folder</code></p>
+
+    <p><code class="highlighter-rouge">jekyll build</code></p>
+
+    <p><code class="highlighter-rouge">jekyll serve</code></p>
+
+    <p><a href="http://localhost:4000">http://localhost:4000</a></p>
+  </li>
+</ul>
+
+<h3 id="git-page">git page</h3>
+<p>push gh-pages branch</p>
+
+<p><code class="highlighter-rouge">$ git checkout --orphan gh-pages</code></p>
+
+<p><code class="highlighter-rouge">$ git push origin gh-pages</code></p>
+
             </div>
         </div>
     </body>
