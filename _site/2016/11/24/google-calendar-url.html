@@ -19,14 +19,28 @@
         <a class="homebtn mdl-button mdl-button--raised mdl-button--colored" href="/ray/">首頁</a>
         <div class="mdl-grid">
             <div class="block-container mdl-cell section--center mdl-shadow--2dp">
-                <i class="material-icons">title</i>最新文章
-<ul>
-    
-    <li>24 Nov 2016 <a href="/ray/2016/11/24/google-calendar-url.html">google calendar url format</a></li>
-    
-    <li>28 Jun 2016 <a href="/ray/2016/06/28/gitpage-blog.html">git page blog with jekyll</a></li>
-    
-</ul>
+                <h1 id="google-calendar-url-">google calendar url 建立活動</h1>
+<div class="highlighter-rouge"><pre class="highlight"><code>https://www.google.com/calendar/render?action=TEMPLATE
+&amp;text=Calendar+Text
+&amp;dates=20161207T090000/20161207T110000
+&amp;details=this+is+detail
+&amp;ctz=Asia/Taipei
+&amp;location=Taipei
+&amp;trp=false
+&amp;sf=true
+&amp;src=your.calendar.email+account
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>'text'     =&gt; 標題,
+'dates'    =&gt; 時間範圍,
+'details'  =&gt; 說明,
+'ctz'      =&gt; 時區,
+'location' =&gt; 地點,
+'trp'      =&gt; 是否忙碌,
+'sf'       =&gt; 是否視訊通話,
+'src'      =&gt; 日曆
+</code></pre>
+</div>
 
             </div>
         </div>
